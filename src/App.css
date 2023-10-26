@@ -1,0 +1,20 @@
+.App {
+    padding: 1.5rem;
+    margin: auto;
+    width: 26rem;
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+    /* Add more dark mode styles here */
+  }
+
+/* Media query for Android devices with a maximum screen width of 768px */
+@media screen and (max-width: 768px) {
+    .App {
+        /* Add styles specific to Android devices here */
+    }
+}
