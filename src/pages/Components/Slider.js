@@ -17,7 +17,7 @@ export default function Slider() {
             onChange={(event) => {
               setVolume(event.target.valueAsNumber);
             }}
-            className="w-80 ml-2 mb-4"
+            className="w-80  mb-4"
           />
         </section>
       </main>

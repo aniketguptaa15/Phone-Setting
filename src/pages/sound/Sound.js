@@ -98,7 +98,7 @@ export default function Sound() {
             </div>
           </li>
           <li className='pb-8 border-b-2 '>
-            <Link to={"/sound/sound_assistant"} className='flex items-center justify-between'>
+            <Link to={"/sound_assistant"} className='flex items-center justify-between'>
             <div>
               <div className='mt-6'>
                 Sound assistant
@@ -189,7 +189,7 @@ export default function Sound() {
           </li>               
         </ul>
       </div>
-      <Link to={"/sound/additional_settings"} className='flex items-center justify-between mt-8'>
+      <Link to={"/additional_settings"} className='flex items-center justify-between mt-8'>
             <div>
               Additional settings
             </div>
@@ -199,7 +199,7 @@ export default function Sound() {
             </div>
             </Link>
       
-      <Link to={"/sound/sound_effects"} className='flex items-center justify-between mt-5'>
+      <Link to={"/sound_effects"} className='flex items-center justify-between mt-5'>
             <div>
               Sound effects
             </div>

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import lightImage from '../images/light.jpg';
 import darkImage from '../images/dark.jpg';
 import styled from 'styled-components';
-import ToggleButton from '../Components/Content'; // Update the import path
+import Dark_Mode from '../Components/Content'; 
+import ToggleButton from '../Components/Toggle'; 
+
 
 export default function Display({ isDarkMode, setIsDarkMode }) {
   const toggleDarkMode = () => {
@@ -36,7 +38,7 @@ export default function Display({ isDarkMode, setIsDarkMode }) {
       <div className="flex justify-between border-b-2 border-gray-300 pb-8 mx-4">
         <div>Schedule Dark Mode</div>
         <div className="flex items-center">
-          <ToggleButton isChecked={isDarkMode} onChange={toggleDarkMode} />
+          <Dark_Mode isChecked={isDarkMode} onChange={toggleDarkMode} />
         </div>
       </div>
       <div>
