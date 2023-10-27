@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import ToggleButton from "../Components/Toggle";
 import styled from "styled-components";
 import  {BiBluetooth} from "react-icons/bi"
+import {BiSolidCheckShield} from "react-icons/bi"
+
 
 export default function Settings() {
   return (
@@ -93,15 +95,26 @@ export default function Settings() {
             <ToggleButton />
           </div>
         </li>
-        <div className=" border-t-2 border-gray-300 mb-8 "></div>
-
+        <div className=" border-t-2 border-gray-300 my-6  "></div>
+        <li>
+          <Link to={"/Security"} className="Link  ">
+            <div className="flex items-center ">
+              <div className="text-3xl  text-green-400">
+              <BiSolidCheckShield/>
+              </div>
+              <div className="ml-3">Security Status</div>
+            </div>
+            
+            <i className="fa-solid fa-angle-right"></i>
+          </Link>
+        </li>
         <li>
           <Link to={"/WIFI"} className="Link  ">
             <div className="flex items-center ">
-              <div className=" mx-2 text-blue-500">
+              <div className=" mx-1 text-blue-500">
                 <i class="fa-solid fa-wifi"></i>
               </div>
-              <div className="ml-1">WIFI</div>
+              <div className="ml-2">Wi-Fi</div>
             </div>
             <i className="fa-solid fa-angle-right"></i>
           </Link>
@@ -109,27 +122,16 @@ export default function Settings() {
         <li>
           <Link to={"/Bluetooth"} className="Link  ">
             <div className="flex items-center ">
-              <div className="text-2xl mx-2 text-blue-500">
+              <div className="text-2xl mx-1 text-blue-500">
               <BiBluetooth/>
               </div>
-              <div className="ml-1">Bluetooth</div>
+              <div className="ml-2">Bluetooth</div>
             </div>
             
             <i className="fa-solid fa-angle-right"></i>
           </Link>
         </li>
-        <li>
-          <Link to={"/Bluetooth"} className="Link  ">
-            <div className="flex items-center ">
-              <div className="text-2xl mx-2 text-blue-500">
-              <BiBluetooth/>
-              </div>
-              <div className="ml-1">Bluetooth</div>
-            </div>
-            
-            <i className="fa-solid fa-angle-right"></i>
-          </Link>
-        </li>
+        
       </ul>
     </Container>
   );

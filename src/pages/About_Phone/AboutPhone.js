@@ -54,7 +54,7 @@ export default function AboutPhone() {
       <div className="m-4 flex items-center">
         <div className="w-1/2">MIUI version</div>
         <div className="w-1/2 text-right">
-          <div className="text-gray-500 text-lg">
+          <div className="text-gray-500 text-sm">
             MIUI Global 12.5.2
             <br />
             stable
@@ -66,7 +66,7 @@ export default function AboutPhone() {
       <div className="m-4 flex items-center">
         <div className="w-1/2">Android Version</div>
         <div className="w-1/2 text-right">
-          <div className="text-gray-500 text-lg">
+          <div className="text-gray-500 text-sm">
             11
             <br />
             RKQ1.201004.002
@@ -76,7 +76,7 @@ export default function AboutPhone() {
       <div className="ml-4 mr-4 flex items-center">
         <div className="w-1/2">Android security update</div>
         <div className="w-1/2 text-right text-gray-500">
-          <div className="text-gray-500 text-lg">2022-05-01</div>
+          <div className="text-gray-500 text-sm">2022-05-01</div>
         </div>
       </div>
       <Link to={"/Specs"} className="Link">

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {HiOutlineDevicePhoneMobile} from "react-icons/hi2"
+import {HiOutlineCpuChip} from "react-icons/hi2"
+
 
 export default function specs() {
   return (
@@ -11,17 +14,22 @@ export default function specs() {
       <div className="border border-zinc-400 rounded-lg mt-4">
         <div className="flex ml-2">
           <div className=" mt-4 ">
+            
+            <div className="mx-6 mt-1"><HiOutlineDevicePhoneMobile/></div>
             <div className="text-gray-400 text-xs m-2"> Device </div>
             <div className="text-sm m-2"> Redmi Note 8 </div>
           </div>
           <div>
-            <div className="text-gray-400 text-xs m-2 mt-6 mx-8 ml-12">RAM</div>
+            <div className="mb-2 mt-5 ml-14"><HiOutlineCpuChip/></div>
+            
+            <div className="text-gray-400 text-xs m-2  mx-8 ml-12">RAM</div>
             <div className="text-sm ml-12 ">4.00 GB</div>
           </div>
         </div>
         <div className="ml-2">
           <div>
-            <div className="text-gray-400 text-xs mt-6 m-2">CPU </div>
+            <div className="mt-3 mx-6"><HiOutlineCpuChip/></div>
+            <div className="text-gray-400 text-xs  m-2">CPU </div>
             <div className="text-sm m-2">Octa-core Max2.01GHZ</div>
           </div>
         </div>

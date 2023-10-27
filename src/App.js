@@ -16,9 +16,9 @@ import AdditionalSetting from './pages/sound/AdditionalSettings';
 import Wireless from './pages/Connections/Wireless_Display';
 import Vpn from './pages/Connections/VPN';
 import CAST from './pages/Connections/Cast';
-
-
-
+import Security_Status from "./pages/Setting/Security"
+import Wifi from "./pages/Setting/Wi_Fi"
+import Bluetooth from "./pages/Setting/Bluetooth"
 
 
 import './App.css'; 
@@ -46,6 +46,9 @@ function App() {
           <Route exact path="/wireless" element={<Wireless/>} />
           <Route exact path="/VPN" element={<Vpn/>} />
           <Route exact path="/Cast" element={<CAST/>} />
+          <Route exact path="/Security" element={<Security_Status/>} />
+          <Route exact path="/WIFI" element={<Wifi/>} />
+          <Route exact path="/Bluetooth" element={<Bluetooth/>} />
         </Routes>
       </BrowserRouter>
     </div>

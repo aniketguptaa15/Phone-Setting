@@ -6,10 +6,10 @@ const aboutPhoneSchema = new mongoose.Schema({
     required:true,
   },
 
-  // miuiVersion: {
-  //   type: String,
-  //   required:true
-  // },
+  miuiVersion: {
+    type: String,
+    required:true
+  },
 
   storage:{type:String,
            required:true},
