@@ -30,9 +30,8 @@ npm i <br/>
 node index.js <br/>
 ?? npm i express mongoose cors (only if the server don't start's) <br/>
 
-# Link of the project demo:
-https://www.loom.com/share/c88d0eaa79a24fc7bc56ad1d64b581cf?sid=798a75cd-dfe4-4e0b-9f9d-b4228ba7ee37
-
+# Link of the project demo:[
+https://www.loom.com/share/ea79ac060daa4173a06a705d66a55572?sid=2a53b54c-c4fa-41a8-9d02-b6dd09a5336a
 
 Thankyou
 # Pictures of My Phone Settings app-
