@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 
-const ToggleButton = () => {
+const ToggleButton = ({name}) => {
+  useEffect(() => {
+    const value = localStorage.getItem(name)
+    setIsChecked(value==="true")
+  }, []);
+  
   const [isChecked, setIsChecked] = useState(false);
 
   const handleToggle = () => {
     setIsChecked(!isChecked);
+    localStorage.setItem(name,!isChecked)
   };
 
   return (

@@ -8,7 +8,7 @@ import {BiSolidCheckShield} from "react-icons/bi"
 
 export default function Settings() {
   return (
-    <Container className="h-screen mx-2">
+    <Container className="min-h-screen mx-2">
       <div className="text-5xl  mt-5">Settings</div>
 
       <div
@@ -92,7 +92,7 @@ export default function Settings() {
             Aerpolane Mode
           </div>
           <div className="mt-2">
-            <ToggleButton />
+            <ToggleButton name={"aeroplanemode"} />
           </div>
         </li>
         <div className=" border-t-2 border-gray-300 my-6  "></div>
